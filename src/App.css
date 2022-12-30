@@ -346,7 +346,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Captures Css ************/
 .captures {
-  padding: 260px 0 100px 0;;
+  padding: 260px 0 100px 0;
   position: relative;
   background-position: top center;
   background-size: cover;
@@ -495,7 +495,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #fc0202 -5.91%, #2fbdb3 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -649,4 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .carousel {
      margin-top: -140px;
   }
+}
+
+.footer-icons {
 }
