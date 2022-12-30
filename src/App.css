@@ -357,10 +357,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
   padding: 50px;
-  text-shadow: 10px 10px 25px rgb(194, 32, 32),
-    -10px 10px 25px rgb(194, 32, 32),
-    -10px -10px 25px rgb(194, 32, 32),
-    10px -10px 25px rgb(194, 32, 32);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .carousel {
   margin-top: 45px;

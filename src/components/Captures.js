@@ -54,10 +54,6 @@ export const Captures = () => {
                         </Carousel>
                         
 
-                        <div>
-                            <h2>Captures</h2>
-                        </div>
-
                         <div class="row">
                             <div class="col-sm-6 col-md-4 mb-3">
                                 <img src={img1} class="w-00 shadow-1-strong rounded mb-4" alt="..." />
