@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.png';
 import navIcon2 from '../assets/img/nav-icon2.png';
 import navIcon3 from '../assets/img/xbox.png';
-import logo from '../assets/img/logo.jpg';
 
 
 export const Footer = () => {
@@ -10,10 +9,7 @@ export const Footer = () => {
         <footer className="footer">
             <Container>
                 <Row className="align-items-center">
-                    <Col>
-                        <img src={logo} class="rounded-circle" alt="Logo" />
-                    </Col>
-                    <Col size={12} sm={6} className="text-center text-sm-end">
+                    <Col size={12} sm={6} className="text-center text-md-start">
                         <div className="social-icon">
                         <a href="https://account.xbox.com/en-us/Profile?xr=mebarnav&rtc=1"><img src={navIcon3} alt="xbox"></img></a>
                         <a href="https://www.facebook.com/kyle.atwood.94"><img src={navIcon1} alt="facebook" /></a>

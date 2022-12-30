@@ -566,13 +566,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Footer Css ************/
-/* .footer {
+ .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}*/
+  justify-content: center;
+  margin-top: 25px;
+}
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
@@ -642,4 +643,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+     margin-top: -140px;
+  }
 }
