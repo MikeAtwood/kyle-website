@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.png';
 import navIcon2 from '../assets/img/nav-icon2.png';
+import navIcon3 from '../assets/img/xbox.png';
 import logo from '../assets/img/logo.jpg';
 
 export const NavBar = () => {
@@ -38,12 +39,13 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>Home</Nav.Link>
-            <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
+            <Nav.Link href="#captures" className={activeLink === "captures" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("captures")}>Captures</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === "project" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("games")}>Games</Nav.Link>
+            <Nav.Link href="#about" className={activeLink === "about" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("about")}>About Me</Nav.Link>
           </Nav>
           <span className="navbar-text">
               <div className="social-icon">
+                  <a href="https://account.xbox.com/en-us/Profile?xr=mebarnav&rtc=1"><img src={navIcon3} alt=""></img></a>
                   <a href="https://www.facebook.com/kyle.atwood.94"><img src={navIcon1} alt="" /></a>
                   <a href="https://twitter.com/KyleAtwood19"><img src={navIcon2} alt="" /></a>
               </div>

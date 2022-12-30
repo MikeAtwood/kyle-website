@@ -235,7 +235,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/ 
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 20px 0 100px 0;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -285,6 +285,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  width: 70%;
+  margin-top: 55px;
+  margin-left: 50px;
 }
 @keyframes updown {
     0% {
@@ -343,14 +346,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Captures Css ************/
 .captures {
-  padding: 5px 0;
+  padding: 260px 0 100px 0;;
   position: relative;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .captures h2 {
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: 700;
   text-align: center;
-  padding: 15px;
+  padding: 50px;
+  text-shadow: 10px 10px 25px rgb(194, 32, 32),
+    -10px 10px 25px rgb(194, 32, 32),
+    -10px -10px 25px rgb(194, 32, 32),
+    10px -10px 25px rgb(194, 32, 32);
+}
+.carousel {
+  margin-top: 45px;
+  margin-bottom: 55px;
 }
 
 /************ Projects Css ************/

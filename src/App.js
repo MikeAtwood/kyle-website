@@ -12,8 +12,8 @@ function App() {
     }}>
     <div className="App">
       <NavBar />
+      <Captures /> 
       <Banner />
-      <Captures />
     </div>
     </div>
   );

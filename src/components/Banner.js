@@ -1,7 +1,7 @@
 
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from '../assets/img/banner.png';
+import headerImg from '../assets/img/banner.jpeg';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css'; 
 
@@ -25,8 +25,8 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={5}>
                         <TrackVisibility>
                             {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="header img" />
+                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""} class="col-md-4">
+                                    <img src={headerImg} alt="header img" class="rounded-circle" />
                                 </div>}
                         </TrackVisibility>
                     </Col>
